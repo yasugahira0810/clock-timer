@@ -42,3 +42,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 これgit pullすると前のファイル変更を取り込んでしまいそうだったので、git push -fした。
 
 これやるとファイルはこちらの変更が入って、commit履歴的にはこれまでのものに続いた形になると思ったが、履歴も消えてしまった。memo.mdだけは取っておいたので直近は困らないが、この動きは覚えておく。
+
+# 20191213
+
+- クリーンインストールしたのだが、npm run serveをするとクリーンインストール前の表示になってしまい、ブラウザを変えたりしても変わらなかった。npm cache clean --forceをしても変わらず。npm run serveを叩いていたコンソールで、一度チェンジディレクトリしてから戻って再度npm run serveしたところ、クリーンインストール後の表示になった。これも覚えておく。
